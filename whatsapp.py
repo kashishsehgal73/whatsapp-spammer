@@ -25,7 +25,7 @@ searchBox.clear()
 searchBox.send_keys(name)
 searchBox.send_keys(Keys.RETURN)
 
-# find message box
+# find message box by xpath
 messageBox = driver.find_element_by_xpath('//div[@class="input"]')
 
 # send message c times
