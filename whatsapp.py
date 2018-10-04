@@ -2,6 +2,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import urllib
+import os
 
 # name is to be same as in contacts
 #name = input("Enter name: ")
